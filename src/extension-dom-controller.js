@@ -1,4 +1,4 @@
-const textToImg = require('text-to-image')
+const UltimateTextToImage = require('ultimate-text-to-image')
 
 window.addEventListener('DOMContentLoaded', () => {
   // const transformScrapedData = (scrapedData) => {
@@ -34,11 +34,10 @@ window.addEventListener('DOMContentLoaded', () => {
         break
     }
     // Create a canvas element
-    
 
-    $('#generatedImageContainer').html(
-      `<img src="${dataURL}" alt="Generated Image" width="${resolution.width}" height="${resolution.height}">`
-    )
+    const generatedImg = new UltimateTextToImage('geend')
+
+    console.log(generateImage)
   }
 
   const setDOMInfo = (info) => {

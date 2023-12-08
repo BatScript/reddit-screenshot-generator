@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BatScript/reddit-screenshot-generator#readme",
   "dependencies": {
-    "text-to-image": "^5.2.0"
+    "text-to-image": "^5.2.0",
+    "ultimate-text-to-image": "^1.0.1"
   }
 }

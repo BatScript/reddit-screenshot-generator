@@ -34,35 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
         break
     }
     // Create a canvas element
-    const canvas = document.createElement('canvas')
-    canvas.width = resolution.width
-    canvas.height = resolution.height
-
-    // Get the 2D rendering context
-    const ctx = canvas.getContext('2d')
-
-    // Set the background color
-    ctx.fillStyle = backgroundColor
-    ctx.fillRect(0, 0, canvas.width, canvas.height)
-
-    // Set the text properties
-    ctx.fillStyle = txtColor // Text color
-    ctx.font = '20px Arial' // Font size and family
-
-    // Calculate text width and height
-    const textMetrics = ctx.measureText(text)
-    const textWidth = textMetrics.width
-    const textHeight = parseInt(ctx.font)
-
-    // Calculate text position for center alignment
-    const x = (canvas.width - textWidth) / 2
-    const y = (canvas.height - textHeight) / 2 + textHeight
-
-    // Draw the text on the canvas
-    ctx.fillText(text, x, y)
-
-    // Convert the canvas to a data URL
-    const dataURL = canvas.toDataURL()
+    
 
     $('#generatedImageContainer').html(
       `<img src="${dataURL}" alt="Generated Image" width="${resolution.width}" height="${resolution.height}">`

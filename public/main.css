@@ -1,0 +1,19 @@
+body {
+  min-width: 300px;
+  margin: 0;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.generatedImgs {
+  max-width: 300px;
+}

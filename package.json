@@ -1,0 +1,22 @@
+{
+  "name": "reddit-ss-generator",
+  "version": "1.0.0",
+  "description": "A chrome ext. to generate screenshots of reddit posts to repost it on instagram.",
+  "main": "extension-dom-controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BatScript/reddit-screenshot-generator.git"
+  },
+  "author": "Mohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BatScript/reddit-screenshot-generator/issues"
+  },
+  "homepage": "https://github.com/BatScript/reddit-screenshot-generator#readme",
+  "dependencies": {
+    "text-to-image": "^5.2.0"
+  }
+}
